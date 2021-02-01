@@ -1,0 +1,14 @@
+1) Tablet
+	
+	1.1) Top Bar ( It stays the same, there is plenty of space for a Tablet PC )
+	1.2) Top Menu ( User Menu ) - Depends, if it starts to break, then there are few options, one of them make the font smaller so it fits into Tablet size, if this makes the font too small then the second option we have to create Burger Menu and put all items in it.
+	1.3) Logo and menu beneath logo have plenty of space for Tablet 
+	1.4) Main Content has plenty of space for Tablet as well
+	
+
+2) Mobile
+
+	1.1) Top Bar - If we stack Top bar, then breadcrumb will be the first object and the second one will be the Search bar, to reduce this block height we must hide the search bar and make only the icon visible, there is also an option to make the Search Bar absolute that shows when the icon is clicked
+	1.2) Top Menu - It's under the burger menu and it stays that way
+	1.3) Logo and menu beneath logo - Logo stays at Left side, but menu under logo moves next to the burger menu icon, this menu stays visible while burger menu hides ( User Menu ), if this menu is too big, then it goes under the logo and burger menu
+	1.4) Main Content goes full width and all items there can stay as they are

@@ -1,0 +1,16 @@
+// Fonts import from google
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+// loca Fonts stored
+@font-face{
+  @include fontface(Helvetica,'url("../fonts/Helvetica-Light.woff") format("woff2")','url(../fonts/Helvetica-Light.woff2) format("woff")',300,normal,swap);
+}
+@font-face{
+  @include fontface(Helvetica,'url("../fonts/Helvetica-Bold.woff2") format("woff2")','url(../fonts/Helvetica-Light.woff2) format("woff")',600,normal,swap);
+}
+@font-face{
+  @include fontface(Helvetica,'url(../fonts/Helvetica.woff) format("woff2")','url(../fonts/Helvetica.woff2) format("woff")',400,normal,swap);
+}
+@font-face{
+  @include fontface(HelveticaNeue,'url("../fonts/HelveticaNeueRegular.woff2") format("woff2")','url("HelveticaNeueRegular.woff") format("woff")',400,normal,swap);
+}

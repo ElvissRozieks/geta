@@ -1,0 +1,11 @@
+// Normalize from npm
+@import 'addons/normalize';
+// Globals
+@import 'inc/variables';
+@import 'inc/mixins';
+@import 'inc/fonts';
+@import 'inc/global';
+// Sections
+@import 'inc/doubleBlock';
+// Responsive
+@import 'responsive/global';

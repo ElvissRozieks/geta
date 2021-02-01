@@ -1,0 +1,36 @@
+{
+  "name": "geta",
+  "version": "1.0.0",
+  "description": "Geta Web Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "GETA"
+  ],
+  "author": "Elviss Rozieks",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "google-fonts-plugin": "^5.0.2",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "normalize-scss": "^7.0.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^4.0.4",
+    "sass-loader": "^10.0.3"
+  }
+}

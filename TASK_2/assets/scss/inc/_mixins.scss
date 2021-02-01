@@ -1,0 +1,33 @@
+// Mixins for import local fonts
+@mixin fontface($familys,$srcwottf,$srcwottf2,$font-weight,$font-style,$font-display){
+  font-family: $familys;
+  src: $srcwottf,$srcwottf2;
+  font-weight: $font-weight;
+  font-style: $font-style;
+  font-display: $font-display;
+}
+
+// Mixins for transitions
+@mixin transition($object,$speed,$type){
+  transition: $object $speed $type;
+  -webkit-transition: $object $speed $type;
+  -moz-transition: $object $speed $type;
+  -o-transition: $object $speed $type;
+}
+
+//Heading generator
+@mixin headings($size,$family,$weight,$defaultcolour,$lineheight,$margin){
+  font-size: $size;
+  font-family: $headingfont;
+  font-weight: $bold;
+  color:$titletext;
+  line-height: $lineheight;
+  margin:$margin;
+}
+
+//Shadow
+@mixin shadow($shadown){
+  filter: drop-shadow($shadown);
+  -webkit-filter: drop-shadow($shadown);
+  -moz-filter: drop-shadow($shadown);
+}

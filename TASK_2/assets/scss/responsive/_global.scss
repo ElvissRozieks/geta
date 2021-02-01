@@ -1,0 +1,28 @@
+@media (max-width: $breakpoint-middle-desktop) {
+  body{
+    font-size: $fontdesktsize;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .flex-container{
+    flex-wrap: wrap;
+    text-align: center;
+
+    .dataShow{
+        div{
+            margin: 0 auto;
+        }
+    }
+
+  }
+  br{
+    display: none !important;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  h1{
+    font-size: $smallh1;
+  }
+}

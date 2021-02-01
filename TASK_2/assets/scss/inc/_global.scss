@@ -1,0 +1,187 @@
+body{
+  font-size: $fontdefaultsize;
+  font-family: $maincontentfont;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+i,svg{
+  vertical-align: middle;
+}
+
+::before, ::after{
+  @include transition(all,$defaultms,ease);
+}
+
+h1{
+  @include headings($h1,$headingfont,$bold,$titletext,$headinglineheight,$marginheading);
+}
+
+h2{
+  @include headings($h2,$headingfont,$bold,$titletext,$headinglineheight,$marginheading);
+}
+
+h3{
+  @include headings($h3,$headingfont,$bold,$titletext,$headinglineheight,$marginheading);
+}
+
+h4{
+  @include headings($h4,$headingfont,$bold,$titletext,$headinglineheight,$marginheading);
+}
+
+h5{
+  @include headings($h5,$headingfont,$bold,$titletext,$headinglineheight,$marginheading);
+}
+
+img{
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  letter-spacing: $defletterspacing;
+  display: inline-block;
+  text-transform: uppercase;
+  @include transition(all,$defaultms,ease);
+}
+
+button{
+  @include transition(all,$defaultms,ease);
+}
+
+// Classes Starts
+
+.pre-text{
+  font-size: $pretext;
+  letter-spacing: $defletterspacing;
+  text-transform: uppercase;
+  color: $highlightButton;
+  display: block;
+}
+
+.button-default{
+  border-radius: 5em;
+  vertical-align: middle;
+  line-height: 1em;
+  font-family: $maincontentfont;
+  font-weight: $regular;
+  padding: 1.4335em 3.86em;
+}
+
+.button-main{
+  font-size: $buttondefault;
+  color:$white;
+  background-color: $highlightButton;
+  &:hover{
+    background-color:$buttonhover;
+  }
+}
+
+.button-alt{
+  color:$highlightButton;
+  border: $borderdefaultpx solid $highlightButton;
+  background-color: $transparent;
+  &:hover{
+    color:$white;
+    border-color: $transparent;
+    background-color: $highlightButton;
+  }
+}
+
+.button-alt-backgrounded{
+  color:$white;
+  border: $borderdefaultpx solid $white;
+  background-color: $transparent;
+  &:hover{
+    color:$titletext;
+    background-color: $white;
+  }
+}
+
+.helvetica-par{
+  p{
+    font-family: $headingfont;
+    font-size: $testimonialfont;
+    font-weight: $regular;
+    line-height: $helveticdefaultlineheight;
+  }
+  span,p{
+    color:$bodytext;
+  }
+}
+
+.default-par{
+  p{
+    font-size: $buttondefault;
+    font-weight: $regular;
+    color:$bodytext;
+    line-height: $helveticdefaultlineheight;
+  }
+}
+
+.content-wprapper{
+  width: 90%;
+  max-width: $defaultwidth;
+  margin: 0 auto;
+}
+
+.content-absolute{
+  position: absolute;
+  top:0;
+  left: 0;
+  &.content-absolute-full{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.content-relative{
+  position: relative;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+
+  li{
+    flex:1;
+  }
+
+}
+
+.standart-flex{
+  flex:1;
+}
+
+.flex-center{
+  align-self: center;
+}
+
+.content-center{
+  text-align: center;
+}
+
+.block-preheading{
+  h1,h2,h3{
+    margin-top: .1em;
+  }
+}
+
+.inline-list{
+  li{
+    display: inline-block;
+  }
+}
+
+.social-icons{
+  i{
+    font-family: $fontawesomebrand;
+  }
+}

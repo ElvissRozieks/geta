@@ -1,0 +1,107 @@
+/* measurement */
+$defaultwidth: 1300px;
+$light: 300;
+$regular: 400;
+$bold: 600;
+$marginheading:0;
+$defletterspacing: 0.2em;
+$defaultms:500ms;
+$borderdefaultpx:1px;
+$defaultem:18px;
+$headinglineheight: 1.250em;
+$px30margin: 1.875em;
+$px40:2.500em;
+$mainreducedopacity:.5;
+/* measurement */
+
+/* Font */
+$headingfont: 'Helvetica';
+$maincontentfont: 'Roboto', sans-serif;
+$quotefont: 'HelveticaNeue';
+$fontawesomebrand: 'Font Awesome 5 Brands';
+/* Font */
+
+/* Main Colors */
+$white:#FFFFFF;
+$highlightButton:#D4B254;
+$buttonhover: #C8A74B;
+$titletext: #222222;
+$menuicons: #000000;
+$lightinactive: #EEEEEE;
+$bodytext: #777777;
+$border: #cecece;
+$background: #efefef;
+$shadow: #00000036;
+$success: #86CB19;
+$error: #FF0000;
+$warning: #FFC928;
+$footerlinecolor: #70707033;
+$transparent: transparent;
+/* Main Colors Ends */
+
+/* Headings/text */
+$fontdefaultsize: 1em;
+$h1:3.250em;
+$h2:2.625em;
+$h3:2.000em;
+$h4:1.500em;
+$h5:1.125em;
+$testimonialfont: $h5;
+$pretext:0.813em;
+$buttondefault:0.938em;
+$helveticdefaultlineheight:2.000em;
+/* Headings/text */
+
+/* Header */
+$lineColour:#ffffff4d;
+/* Header */
+
+/* Side menu variables */
+$leftposition:100vw;
+/* Side menu variables */
+
+/* Hamburger menu */
+$hamburgermenuheight:2px;
+$hamburgermenuwidth:3;
+$hamburgermenureduce:1;
+$hamburgermenuspaces:12px;
+/* Hamburger menu */
+
+/* Single Slider Shadows */
+$shadowdefault: 0px 0px 4px;
+$pretextshadow: $shadowdefault #000000;
+$h1shadow: $shadowdefault #00000080;
+/* Single Slider Shadows */
+
+/* Gallery variables */
+$margin: 0.625em;
+/* Gallery variables */
+
+/* Footer */
+$backgroundimage: '../img/footer.jpg';
+$lineargrad: #000000e6;
+/* Footer */
+
+/* Prelodaer */
+$defaultdottime: -1.1;
+$timereducer: 0.1;
+$skchase: 2.5s;
+$skchasedot: 2.0s;
+$rotate: 360deg;
+$scalestart:0.4;
+$scaleend:1.0;
+/* Prelodaer */
+
+/* Responsive */
+
+/* 1360px */
+$breakpoint-middle-desktop: 1360px;
+$fontdesktsize: .9em;
+/* 1100px */
+$breakpoint-small-desktop: 1100px;
+/* 768px */
+$breakpoint-tablet: 850px;
+$footercolum: 4.250em;
+/* 480px */
+$breakpoint-mobile: 480px;
+$smallh1:2.25em;
