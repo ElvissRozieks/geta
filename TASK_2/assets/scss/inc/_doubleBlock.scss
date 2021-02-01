@@ -1,26 +1,23 @@
-section.double-block-module{
-  .double-block-inner{
-    .double-block-container-wrapper{
-      margin: 0 4.375em;
-      padding: 4.375em 0;
-      .double-block-inner{
-        p{
-          margin: $px30margin 0;
-        }
+section.block-module{
+
+    .block-inner{
+    margin: 0 4.375em;
+    padding: 4.375em 0;
+
         .dataShow {
+
             div{
                 flex: 1 0 25%;
                 border-radius: 1em;
                 padding: 6em 2em;
                 box-shadow: 2px 2px 20px 0px $shadow;
                 margin: 1em;
+
                 span {
                     display: block;
                     letter-spacing: 1px;
                 }
             }
         }
-      }
     }
-  }
 }
